@@ -5,7 +5,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'https://sit-products.tbsgroup.co.id/api/v1'
+    baseUrl: 'https://sit-products.tbsgroup.co.id/api/v1',
+    baseUrlUser: 'https://sit-users.tbsgroup.co.id/api/v1'
   },
 });
 
